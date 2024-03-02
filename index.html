@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Aquí se realizarán varias operaciones </h1>
+
+    <script src="assets/js/operacionesmatematicas.js"></script>
+    <div id="resultados1"></div> 
+
+
+    <script>
+        document.getElementById("resultados1").innerHTML =
+            `<p>Resultado suma: ${suma}</p>
+            <p>Resultado resta: ${resta}</p>
+            <p>Resultado multiplicación: ${multiplicacion}</p>
+            <p>Resultado división: ${division}</p>`;
+
+    </script> 
+
+       <<script src="assets/js/transformaciontemperatura.js"></script>
+
+       <div id="resultados2"></div> 
+       <script>
+        document.getElementById("resultados2").innerHTML =
+        `<p>Conversión a grados Kelvin: ${gradosKelvin}</p>
+        <p>Conversión a grados Fahrenheit: ${gradosFahrenheit}</p>`;
+ 
+
+    </script>  
+
+    <script src="assets/js/conversiontiempo.js"></script>
+
+<div id="resultados3"></div> 
+       <script>
+        document.getElementById("resultados3").innerHTML =
+    `<p>Durante los ${total_dias} días que estuviste afuera, pasaron ${anios} años, ${semanas} semanas y ${dias} días;</p>`;    
+</script> 
+
+<script src="assets/js/promedionumeros.js" ></script>
+ 
+
+<div id="resultados4"></div> 
+<script>
+    document.getElementById("resultados4").innerHTML =
+        `<p>La suma de los números es: ${suma} y su promedio es ${promedio}</p>`;
+</script>
+
+
+</body>
+</html>
